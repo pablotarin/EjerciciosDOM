@@ -48,7 +48,6 @@ segundoDiv.parentNode.insertBefore(middleP, segundoDiv);
 
 // 1.9
 const divs = document.body.querySelectorAll('div');
-console.log(divs);
 for (let i = 0; i < divs.length; i++) {
     const inP = document.createElement('p');
     inP.textContent = 'Voy dentro!';

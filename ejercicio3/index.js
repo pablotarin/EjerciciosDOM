@@ -18,7 +18,7 @@ for (let c of cars) {
     const liCars = document.createElement('li');
     liCars.textContent = c;
     liCars.setAttribute('data-function', 'printHere');
-    ulCountries.appendChild(liCars);
+    ulCars.appendChild(liCars);
 }
 document.body.appendChild(ulCars);
 

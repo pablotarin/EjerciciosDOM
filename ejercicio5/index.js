@@ -7,9 +7,9 @@ const places = [
 ];
 
 const ulAlbums = document.createElement('ul');
-for (let a of places) {
+for (const a of places) {
     const liAlbums = document.createElement('li');
     liAlbums.textContent = a;
-    ulPlaces.appendChild(liAlbums);
+    ulAlbums.appendChild(liAlbums);
 }
-document.body.appendChild(ulPlaces);
+document.body.appendChild(ulAlbums);
