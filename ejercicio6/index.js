@@ -1,0 +1,1 @@
+document.body.removeChild(document.querySelector('.fn-remove-me'));
